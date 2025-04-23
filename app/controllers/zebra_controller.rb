@@ -1,6 +1,7 @@
 class ZebraController < ApplicationController
   def monkey
     render({ :template => "game_templates/homepage"})
+    
   end
 
   def giraffe
